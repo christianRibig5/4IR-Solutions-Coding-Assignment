@@ -27,12 +27,12 @@ public class VpcStackReference {
      * pulumi stack ls
      *
      * Example:
-     * christianRibig5/vpc/dev
+     * JohnDoe/vpc/dev
      *
      * 3. Update this value inside Variables.java:
      *
      * public static final String VPC_STACK_REFERENCE =
-     * "christianRibig5/vpc/dev";
+     * "JohnDow/vpc/dev";
      *
      * 4. Then deploy the EKS stack:
      * cd eks-cluster

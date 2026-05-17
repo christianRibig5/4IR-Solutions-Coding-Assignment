@@ -43,7 +43,7 @@ public class Variables {
     // organization/project/stack
     //
     // Example:
-    // christianRibig5/vpc/dev
+    // YOUR_ORG_NAME/vpc/dev
     //
     // IMPORTANT:
     // Update this value to match YOUR deployed VPC stack.
@@ -51,7 +51,7 @@ public class Variables {
     // To check available stacks:
     // pulumi stack ls
     //
-    public static final String VPC_STACK_REFERENCE = "christianRibig5/vpc/dev";// "christianRibig5/vpc/dev";
+    public static final String VPC_STACK_REFERENCE = "REPLACE_WITH_VPC_STACK_REFERENCE";
 
     // Logical environment name
     public static final String ENVIRONMENT_NAME = "dev";
